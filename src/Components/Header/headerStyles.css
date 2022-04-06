@@ -1,0 +1,66 @@
+@import "../../stylesVar.css";
+
+.active {
+  transition: all 0.5s;
+  z-index: 997;
+  background: var(--black);
+}
+
+.header-transparent {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 24px 0;
+  background: transparent;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.logo {
+  box-sizing: border-box;
+}
+
+.text-light {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1;
+  font-weight: var(--font-weight-thick);
+  letter-spacing: 1px;
+  font-family: var(--header-logo);
+  text-transform: uppercase;
+}
+
+.header-option-container {
+  padding: 0px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-ul {
+  display: flex;
+}
+
+.header-container-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: var(--font-weight-thick);
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.header-container-item:hover {
+  color: var(--dark-blue);
+}

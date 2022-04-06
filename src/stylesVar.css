@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --light-black: rgba(0, 0, 0, 0.5);
+  --black: #000;
+  --light-blue: rgba(103, 176, 209, 0.8);
+  --dark-blue: #0d6efd;
+
+  /* Font variables */
+
+  /* Font Weight */
+
+  --font-weight-thick: 700;
+
+  --header-logo: "Poppins", sans-serif;
+}
